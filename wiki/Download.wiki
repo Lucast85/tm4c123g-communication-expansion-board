@@ -1,13 +1,20 @@
-#summary One-sentence summary of this page.
+#summary Download page with main production files (gerber, source code, etc.)
+#labels Featured,Phase-Design,gerber
 
-= Introduction =
-fga
-Add your content here.
+The format used is RS274X format 3.4, Imperial, Leading zero omitted, Abs format. This is 
+very usual settings.
 
+= Gerber =
+Zipped folder with the following gerber files:
+ * TM4C123G_CommExpBoard-B_CU.gbl = Bottom copper
+ * TM4C123G_CommExpBoard-B_Mask.gbs = Bottom soldermask
+ * TM4C123G_CommExpBoard-F_Cu.gtl = Front copper
+ * TM4C123G_CommExpBoard-F_Mask.gts = Front soldermask
+ * TM4C123G_CommExpBoard-F_SilkS.gto = Front silkscreen
+ * TM4C123G_CommExpBoard-Edge_Cuts.gbr = Board outline
+ * TM4C123G_CommExpBoard-Dwgs_User.gbr = User drawings (cross-hair and other draft)
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+... and excellon files:
+ * TM4C123G_CommExpBoard.drl = drill file
+ * TM4C123G_CommExpBoard-drl.rpt = drill report (plain text)
+ * TM4C123G_CommExpBoard-drl_map.pho = drill map
