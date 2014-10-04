@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0  Date: 7/1/2014 23:00:59
+#
+$CMP SIP_SPDT_SWITCH
+D Single dip switch
+$ENDCMP
+#
+#End Doc Library
