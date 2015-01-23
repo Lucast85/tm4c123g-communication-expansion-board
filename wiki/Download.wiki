@@ -4,7 +4,8 @@
 The format used is RS274X format 3.4, Imperial, Leading zero omitted, Abs format. This is 
 very usual settings.
 
-The files are available [https://dl.dropboxusercontent.com/u/43091897/HostedFile/tm4c123g-communication-expansion-board/gerber_sch_0_3_5_pcb_0_5.zip here].
+Last revision of project files (rev1.1) are available [https://dl.dropboxusercontent.com/u/43091897/HostedFile/tm4c123g-communication-expansion-board/ExpansionBoard_TI_TivaLP__sch_v1_1_pcb_v1_1.zip here].
+
 = Gerber =
 The zipped folder has the following gerber files:
  * TM4C123G_CommExpBoard-B_CU.gbl = Bottom copper
